@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - VIMO Chrome Extension</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .last-updated {
+            text-align: center;
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        
+        .highlight {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        
+        .contact-info {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        
+        .api-endpoints {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+        }
+        
+        .data-types {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ffeaa7;
+            margin: 15px 0;
+        }
+        
+        .no-collect {
+            background-color: #d1ecf1;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #bee5eb;
+            margin: 15px 0;
+        }
+        
+        .rights-list {
+            background-color: #d4edda;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #c3e6cb;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for VIMO Chrome Extension</h1>
+        <p class="last-updated">Last Updated: 12.07.2025</p>
+
+        <h2>1. Introduction</h2>
+        <p>This Privacy Policy explains how VIMO Chrome Extension ("we", "our", or "us") collects, uses, and protects your personal information when you use our productivity extension. By installing and using VIMO, you agree to the terms outlined in this policy.</p>
+
+        <h2>2. Information We Collect</h2>
+        
+        <h3>2.1 Required Registration Data</h3>
+        <div class="data-types">
+            <ul>
+                <li><strong>Username:</strong> A unique name to identify your account</li>
+                <li><strong>Email address:</strong> Used for account verification and communication</li>
+                <li><strong>Password:</strong> Securely hashed (never stored in plain text)</li>
+            </ul>
+        </div>
+
+        <h3>2.2 Productivity Data</h3>
+        <div class="data-types">
+            <ul>
+                <li>Focus time (in seconds)</li>
+                <li>Break time (in seconds)</li>
+                <li>Number of Pomodoro sessions completed</li>
+                <li>User balance (points/rewards system)</li>
+            </ul>
+        </div>
+
+        <h3>2.3 User Content</h3>
+        <div class="data-types">
+            <ul>
+                <li>Note titles (limited to 200 characters)</li>
+                <li>Note content (unlimited text)</li>
+                <li>Color preferences for notes (index 0-5)</li>
+            </ul>
+        </div>
+
+        <h3>2.4 Technical Data</h3>
+        <div class="data-types">
+            <ul>
+                <li>Timestamps for all actions</li>
+                <li>Authentication tokens (JWT)</li>
+                <li>Unique identifiers (user IDs, record IDs)</li>
+            </ul>
+        </div>
+
+        <div class="no-collect">
+            <h3>We do NOT collect:</h3>
+            <ul>
+                <li>Geolocation data</li>
+                <li>Browser cookies for tracking</li>
+                <li>Browsing history</li>
+                <li>Device information</li>
+                <li>Any other personal data not explicitly mentioned above</li>
+            </ul>
+        </div>
+
+        <h2>3. How We Use Your Information</h2>
+        
+        <h3>3.1 Core Functionality</h3>
+        <ul>
+            <li>To authenticate and maintain your account</li>
+            <li>To track and visualize your productivity metrics</li>
+            <li>To store and organize your notes</li>
+            <li>To personalize your experience (e.g., note colors)</li>
+        </ul>
+
+        <h3>3.2 Technical Operations</h3>
+        <ul>
+            <li>To maintain secure sessions using JWT tokens</li>
+            <li>To synchronize data across your devices</li>
+            <li>To improve extension performance</li>
+        </ul>
+
+        <h2>4. Data Storage and Security</h2>
+        
+        <h3>4.1 Storage Method</h3>
+        <ul>
+            <li>All data is stored locally in SQLite databases</li>
+            <li>Data remains on your device unless explicitly synced (if applicable)</li>
+        </ul>
+
+        <h3>4.2 Security Measures</h3>
+        <div class="highlight">
+            <ul>
+                <li>Passwords are hashed using industry-standard algorithms</li>
+                <li>JWT tokens with limited lifetimes (5 hours for access, 7 days for refresh)</li>
+                <li>Blacklist system for revoked tokens</li>
+                <li>No third-party access to your data</li>
+            </ul>
+        </div>
+
+        <h2>5. Data Retention and Deletion</h2>
+        <ul>
+            <li>Your data persists as long as your account exists</li>
+            <li>You may delete individual notes or sessions at any time</li>
+            <li>Full account deletion removes all associated data permanently</li>
+            <li>Account deletion can be performed via the <code>/api/delete-account/</code> endpoint</li>
+        </ul>
+
+        <h2>6. API Endpoints Handling Data</h2>
+        <p>Our extension communicates with the following secure endpoints:</p>
+        <div class="api-endpoints">
+            <ul>
+                <li><code>/api/register/</code> - Account creation</li>
+                <li><code>/api/login/</code> - Authentication</li>
+                <li><code>/api/vimo/create/</code> - Session tracking</li>
+                <li><code>/api/notes/</code> - Note management</li>
+                <li><code>/api/delete-account/</code> - Account removal</li>
+            </ul>
+        </div>
+
+        <h2>7. Your Rights</h2>
+        <div class="rights-list">
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access all data we store about you</li>
+                <li>Request correction of inaccurate data</li>
+                <li>Delete your account and all associated data</li>
+                <li>Withdraw consent (by uninstalling the extension)</li>
+            </ul>
+        </div>
+
+        <h2>8. Changes to This Policy</h2>
+        <p>We may update this policy periodically. Significant changes will be communicated via:</p>
+        <ul>
+            <li>The Chrome Web Store listing</li>
+            <li>In-extension notifications</li>
+            <li>Email (if you've provided one)</li>
+        </ul>
+
+        <h2>9. Contact Us</h2>
+        <div class="contact-info">
+            <p>For privacy-related questions or requests, please contact:</p>
+            <p><strong>splantflower@gmail.com</strong><br>
+            <strong>[Your Website URL]</strong></p>
+        </div>
+
+        <div class="highlight">
+            <p><strong>Note:</strong> This policy is effective as of the date listed above and complies with general privacy best practices and Chrome Web Store requirements. For specific legal compliance in your jurisdiction, consult with a legal professional.</p>
+        </div>
+    </div>
+</body>
+</html> 
